@@ -28,9 +28,6 @@ Node.js(NestJS)와 Python(FastAPI)로 백엔드를 짓고, React / React Native 
 
 ## 관심 분야
 
-> 아래에는 GitHub **공개·비공개 리포를 전수 조사해** 어느 정도 완성된 프로젝트만 추렸습니다.
-> 비공개 작업은 방문자 편의를 위해 링크 없이 **(비공개)** 로 표기했습니다.
-
 ### 1. AI 에이전트 · MCP · 로컬 LLM
 
 LLM 시대 초창기부터 **로컬 추론 기반 text2sql 서비스**를 개인 사업으로 운영해 왔습니다.
@@ -40,7 +37,6 @@ LLM 시대 초창기부터 **로컬 추론 기반 text2sql 서비스**를 개인
 - 오픈소스 기여 (PR): [`alasdairforsythe/tokenmonster`](https://github.com/alasdairforsythe/tokenmonster) (Go SOTA 토크나이저) · [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator) (AI 에이전트 계획 주석·리뷰 도구)
 - MCP 서버·플러그인: [`codex-mcp`](https://github.com/j-token/codex-mcp) · [`codex-plugin`](https://github.com/j-token/codex-plugin) · [`claude-agent-mcp`](https://github.com/j-token/claude-agent-mcp) · [`dm-plz`](https://github.com/j-token/dm-plz) · **media-mcp-agents** — FastMCP + Gemini 로 오디오·비디오(YouTube)·이미지·PDF 를 분석하는 멀티모달 MCP 서버 (비공개)
 - 에이전트 워크플로우·도구: [`easy-opencode`](https://github.com/j-token/easy-opencode) · [`openclaw`](https://github.com/j-token/openclaw) · [`claude-sync`](https://github.com/j-token/claude-sync) · [`opencode-reviewer`](https://github.com/j-token/opencode-reviewer) (마크다운 드래그-코멘트 리뷰 VSCode 확장)
-- **로컬 LLM 양자화 연구** — Qwen3-8B 를 **1.125 bits/weight** 까지 압축하는 1-bit PTQ 파이프라인 직접 구현·실험 (Hadamard rotation + GPTQ + BLoRA, Bonsai 포맷 역분석) (비공개 연구)
 
 ### 2. 풀스택 TypeScript & 웹·앱 제품 (NestJS · Next.js · React Native / Expo · SvelteKit · Cloudflare)
 
