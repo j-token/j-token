@@ -12,17 +12,15 @@
 
 ## About Me
 
-> **"재미있어 보이는 건 참을 수 없습니다!"**
+> "재미있어 보이는 건 참을 수 없습니다!"
 
-문제 해결을 위해 **협업의 가치와 기술적 깊이**를 중요하게 생각하는 풀스택 개발자입니다.
-Node.js(NestJS)와 Python(FastAPI)로 백엔드를 짓고, React / React Native / SvelteKit 으로 웹·앱을 만듭니다.
-그리고 LLM이 세상에 막 나왔을 때부터 **로컬 AI 서비스를 직접 운영**해 온 경험을 바탕으로, 요즘은 AI 에이전트 도구를 만드는 데 몰두하고 있습니다.
+웹, 앱, 서버를 모두 다루는 풀스택 개발자입니다.
+Node.js(NestJS)와 Python(FastAPI)으로 백엔드를 짓고, React / React Native / SvelteKit으로 웹·앱을 만듭니다.
+LLM이 세상에 막 나왔을 때부터 로컬 AI 서비스를 직접 운영했고, 요즘은 AI 에이전트 도구를 만듭니다.
 
-- AI 코딩 도구(**opencode · Claude · GPT · Codex**)를 적극 활용해 생산성을 극대화합니다
-- 부족한 도구는 **직접 MCP 서버·플러그인으로** 만듭니다
-- 실시간 통신(WebRTC / MQTT / TCP), 게임 개발(Unity), 협동로봇 제어까지 — 재미있어 보이는 건 일단 건드려 봅니다
+Claude, GPT, Codex, opencode를 개발 전 과정에 씁니다. 필요한 도구가 없으면 직접 만듭니다. [`codex-mcp`](https://github.com/j-token/codex-mcp), [`claude-agent-mcp`](https://github.com/j-token/claude-agent-mcp), [`dm-plz`](https://github.com/j-token/dm-plz)가 그렇게 나왔습니다.
 
-> **📋 Disclosure** — 이 프로필에 등장하는 프로젝트 중 **RB-Ware의 로봇 제어 구현만이 AI 도움 없이 단독으로 만든 것**이고, 나머지 모든 작업(실무·개인 사업·사이드 프로젝트·게임)은 Claude·GPT·Codex·opencode 등 AI 코딩 파트너와 협업해 만들어졌습니다. AI는 제가 가장 잘 쓰는 도구이고, **결과물의 품질과 의사결정에 대한 책임은 제가 집니다.**
+> **📋 Disclosure** — 이 프로필의 프로젝트 중 RB-Ware의 로봇 제어 구현만 AI 도움 없이 단독으로 만들었고, 나머지는 전부 Claude·GPT·Codex·opencode와 협업해 만들었습니다. 결과물의 품질과 의사결정에 대한 책임은 제가 집니다.
 
 ---
 
@@ -30,46 +28,42 @@ Node.js(NestJS)와 Python(FastAPI)로 백엔드를 짓고, React / React Native 
 
 ### 1. AI 에이전트 · MCP · 로컬 LLM
 
-LLM 시대 초창기부터 **로컬 추론 기반 text2sql 서비스**를 개인 사업으로 운영해 왔습니다.
-**RWKV-4, LLaMA 1·2** 등 당시 공개된 모델들을 실제 프로덕션에 접목하며 한국어 전처리·토크나이저·학습 데이터 파이프라인을 함께 다뤘습니다.
+LLM 시대 초창기부터 로컬 추론 기반 text2sql 서비스를 개인 사업으로 운영했습니다.
+RWKV-4, LLaMA 1·2 등 당시 공개된 모델들을 실제 프로덕션에 접목하며 한국어 전처리·토크나이저·학습 데이터 파이프라인을 다뤘습니다.
 
 - 당시 공개 리포: [`extract-text-from-json-by-gjson`](https://github.com/j-token/extract-text-from-json-by-gjson) (AI 학습 데이터 추출) · [`install-mecab-ko-linux`](https://github.com/j-token/install-mecab-ko-linux) (한국어 형태소)
 - 오픈소스 기여 (PR): [`alasdairforsythe/tokenmonster`](https://github.com/alasdairforsythe/tokenmonster) (Go SOTA 토크나이저) · [`backnotprop/plannotator`](https://github.com/backnotprop/plannotator) (AI 에이전트 계획 주석·리뷰 도구)
-- MCP 서버·플러그인: [`codex-mcp`](https://github.com/j-token/codex-mcp) · [`codex-plugin`](https://github.com/j-token/codex-plugin) · [`claude-agent-mcp`](https://github.com/j-token/claude-agent-mcp) · [`dm-plz`](https://github.com/j-token/dm-plz) · **media-mcp-agents** — FastMCP + Gemini 로 오디오·비디오(YouTube)·이미지·PDF 를 분석하는 멀티모달 MCP 서버 (비공개)
+- MCP 서버·플러그인: [`codex-mcp`](https://github.com/j-token/codex-mcp) · [`codex-plugin`](https://github.com/j-token/codex-plugin) · [`claude-agent-mcp`](https://github.com/j-token/claude-agent-mcp) · [`dm-plz`](https://github.com/j-token/dm-plz) · **media-mcp-agents** — FastMCP + Gemini로 오디오·비디오(YouTube)·이미지·PDF를 분석하는 멀티모달 MCP 서버 (비공개)
 - 에이전트 워크플로우·도구: [`easy-opencode`](https://github.com/j-token/easy-opencode) · [`openclaw`](https://github.com/j-token/openclaw) · [`claude-sync`](https://github.com/j-token/claude-sync) · [`opencode-reviewer`](https://github.com/j-token/opencode-reviewer) (마크다운 드래그-코멘트 리뷰 VSCode 확장)
 
 ### 2. 풀스택 TypeScript & 웹·앱 제품 (NestJS · Next.js · React Native / Expo · SvelteKit · Cloudflare)
 
-- **판도플랫폼 Gen AI 베리어프리 키오스크** — Electron + React + NestJS + GPT Realtime + LiveKit 로 장애인·외국인을 위한 접근성 키오스크 총괄 제작
-- **엔피엘솔루션 Better Auth 시스템** — NestJS + Better Auth + PostgreSQL 로 네이버·카카오·구글 로그인 및 계정 연동 구축
+- **판도플랫폼 Gen AI 베리어프리 키오스크** — Electron + React + NestJS + GPT Realtime + LiveKit으로 장애인·외국인을 위한 접근성 키오스크 총괄 제작
+- **엔피엘솔루션 Better Auth 시스템** — NestJS + Better Auth + PostgreSQL로 네이버·카카오·구글 로그인 및 계정 연동 구축
 - **플레이모어(아미고)** — 앱 결제페이지 제작, Supabase 브랜치로 dev/prod 분리, 회사 홈페이지([ameego.club](https://www.ameego.club/)) 리뉴얼
-- **深海月光 -abyssal moonlight- 공식 사이트** — Next.js 16 + PixiJS + Live2D 로 픽셀×Live2D 비주얼 노벨([itch.io](https://garurai.itch.io/abyssalmoonlightprologue))의 공식 사이트 제작, better-auth 화이트리스트 기반 CMS 내장 (비공개)
-- **Teru Commission CMS** — Cloudflare Workers + D1 + R2 로 앨범·브랜드 사이트 CMS 풀스택 구축 (비공개)
-- **Subkara** — Expo + Supabase + Railway 로 만든 서브컬쳐 노래방 검색 MVP (비공개)
-- **실시간 일급 카운터** — Expo / React Native 로 현재 수입을 초 단위로 계산, **Android 포그라운드 서비스**로 앱이 꺼져도 알림 바에서 실시간 갱신 (비공개)
-- [`x-twitter`](https://github.com/j-token/x-twitter) — Discord.js + PostgreSQL 로 Bilibili·Twitter/X 미디어 게시글을 Discord 채널에 자동 포스팅하는 모니터 봇
-- **개인 사업** — SvelteKit으로 동적 모션 웹툰 사이트 제작 (고세구 트위치 방송 1주년 기념, 현재 비공개)
+- **深海月光 -abyssal moonlight- 공식 사이트** — Next.js 16 + PixiJS + Live2D로 픽셀×Live2D 비주얼 노벨([itch.io](https://garurai.itch.io/abyssalmoonlightprologue))의 공식 사이트 제작, better-auth 화이트리스트 기반 CMS 내장 (비공개)
+- **Teru Commission CMS** — Cloudflare Workers + D1 + R2로 앨범·브랜드 사이트 CMS 풀스택 구축 (비공개)
+- [`x-twitter`](https://github.com/j-token/x-twitter) — Discord.js + PostgreSQL로 Bilibili·Twitter/X 미디어 게시글을 Discord 채널에 자동 포스팅하는 모니터 봇
 
 ### 3. 실시간 통신 · 음성 AI (WebRTC · LiveKit · Pipecat · STT/TTS)
 
-- **티와이이엔지** — Go + WebRTC 로 RTSP 카메라 송수신 지연을 **30초 → 1초**로 단축, PTZ 제어 지원
+- **티와이이엔지** — Go + WebRTC로 RTSP 카메라 송수신 지연을 30초 → 1초로 단축, PTZ 제어 지원
 - **판도플랫폼** — GPT Realtime + LiveKit 기반 실시간 음성 키오스크
-- **음성 통화 에이전트** — FastAPI + **Pipecat** 파이프라인(STT→LLM→TTS)으로 전화 에이전트 서버 구축, 통화 중 DTMF 키패드 입력 수집까지 처리 (`pipecat-call` / `mire2`, 비공개)
+- **음성 통화 에이전트** — FastAPI + Pipecat 파이프라인(STT→LLM→TTS)으로 전화 에이전트 서버 구축, 통화 중 DTMF 키패드 입력 수집까지 처리 (`pipecat-call`, 비공개)
 - **RTA (Real-Time Audio Translator)** — Windows 시스템 오디오를 실시간 캡처해 번역·오버레이 자막으로 보여주는 Electron 데스크톱 앱 (Soniox STT 프록시 + Supabase) (비공개)
-- **langCAT** — `getDisplayMedia` 화면 공유 오디오를 Deepgram STT + Gemini 번역으로 실시간 이중 자막 표시 (비공개)
-- **개인 사업** — Go WebRTC 프레임워크 [**pion**](https://github.com/pion/webrtc)으로 rtsp2webrtc 직접 구현, PTZ 카메라 원격 제어
+- **개인 사업** — Go WebRTC 프레임워크 [pion](https://github.com/pion/webrtc)으로 rtsp2webrtc 직접 구현, PTZ 카메라 원격 제어
 
 ### 4. 협동로봇 & 산업 자동화 (RB-Ware) — `Solo Build`
 
-**RB-Ware (한국 협동로봇 용접 자동화 1위 · 레인보우로보틱스 파트너)** 에서 1개월간 풀스택 개발자로 참여.
+RB-Ware (한국 협동로봇 용접 자동화 1위 · 레인보우로보틱스 파트너)에서 1개월간 풀스택 개발자로 참여.
 
-- **Flutter**로 협동로봇 조작 앱 개발, **Unity**로 로봇 티칭/시뮬레이션 UI 구성
-- 로봇 ↔ 컨트롤러 간 **TCP / MQTT** 실시간 통신 프로토콜 직접 구현
-- **AI 비개입 단독 구현 프로젝트**
+- Flutter로 협동로봇 조작 앱 개발, Unity로 로봇 티칭/시뮬레이션 UI 구성
+- 로봇 ↔ 컨트롤러 간 TCP / MQTT 실시간 통신 프로토콜 직접 구현
+- AI 비개입 단독 구현 프로젝트
 
 ### 5. 인증 & OAuth 통합
 
-- 실무: Better Auth + NestJS + PostgreSQL 로 네이버/카카오/구글 연동
+- 실무: Better Auth + NestJS + PostgreSQL로 네이버/카카오/구글 연동
 - 오픈소스 템플릿: [`better-auth-flutter`](https://github.com/j-token/better-auth-flutter) · [`supabase-custom-oauth-test`](https://github.com/j-token/supabase-custom-oauth-test) (Supabase 네이버 커스텀 OAuth 프로바이더)
 
 ### 6. 게임 & 그래픽 (Unity · Godot · Flutter · WebGPU)
@@ -82,14 +76,17 @@ LLM 시대 초창기부터 **로컬 추론 기반 text2sql 서비스**를 개인
 - 커스텀 URP `PixelOutlineFeature` + ToonCrack/Dither 셰이더로 레트로 픽셀 아트
 - Aseprite 파이프라인 툴링: [`aseprite-bin`](https://github.com/j-token/aseprite-bin) · [`aseprite_builder`](https://github.com/j-token/aseprite_builder)
 
-**MoonOrBust** — Godot(GDScript) 멀티플레이어 게임. Godot 측 **WebRTC 시그널링 클라이언트/호스트**와 Node.js WebSocket 릴레이·업데이트 매니페스트 서버를 함께 구현, 타입드 데이터 리소스(`PlayerData`/`PositionData`/`DebtData`)로 게임 상태 관리 (비공개)
+[`play-tag`](https://github.com/j-token/play-tag) — 경도(경찰/도둑). Flutter + BLE로 GPS 없이 블루투스 신호만으로 상대팀을 감지하는 오프라인 술래잡기 앱, Supabase Realtime으로 게임 상태 동기화
 
-**경도 (경찰/도둑)** — Flutter + **BLE** 기반 오프라인 근접 감지 술래잡기 앱. GPS 없이 블루투스 신호로만 상대팀을 감지하는 정보 비대칭 설계, Supabase Realtime 으로 게임 상태 동기화 (비공개)
+**MoonOrBust** — Godot + WebRTC 시그널링 기반 멀티플레이어 게임 (개발 중, 비공개)
 
-### 7. AI × 금융 (자동매매)
+---
 
-- [`Cryptocurrency_with_ai`](https://github.com/j-token/Cryptocurrency_with_ai) — FastAPI 기반 AI 자동매매 실험
-- **Prometheus** — C++20 + Python/FastAPI 로 만든 Bybit 자동매매 시스템. 차트 패턴 인식 + 피보나치 분석 전략, ZeroMQ IPC 로 C++ 코어와 대시보드 분리, SQLite(WAL) 저장 (비공개)
+## Competitions
+
+**AI_TOP_100 (CAMPUS) 예선 — 전체 4위 (229점)**
+
+원하는 AI 도구로 문제를 풀어 겨루는 대회입니다. 3월 예선 당시 Claude Opus 4.6으로 작성한 답안을 저장해 뒀다가 4월 랭킹 산출 기간에 그대로 제출했습니다.
 
 ---
 
@@ -176,27 +173,15 @@ LLM 시대 초창기부터 **로컬 추론 기반 text2sql 서비스**를 개인
 | [**claude-agent-mcp**](https://github.com/j-token/claude-agent-mcp)                   | Author           | Claude Agent SDK를 래핑한 MCP 서버                         |
 | [**dm-plz**](https://github.com/j-token/dm-plz)                                       | Author           | Telegram / Discord로 Claude Code 알림 MCP                  |
 | [**x-twitter**](https://github.com/j-token/x-twitter)                                 | Author           | Bilibili·Twitter/X → Discord 미디어 모니터 봇              |
+| [**play-tag**](https://github.com/j-token/play-tag)                                   | Author           | 경도 — Flutter + BLE 오프라인 근접 감지 술래잡기           |
 | [**alasdairforsythe/tokenmonster**](https://github.com/alasdairforsythe/tokenmonster) | Contributor (PR) | Go 기반 SOTA 토크나이저 — 로컬 LLM × text2sql 시기의 기여  |
 | [**backnotprop/plannotator**](https://github.com/backnotprop/plannotator)             | Contributor (PR) | AI 코딩 에이전트 계획·코드 리뷰 도구                       |
 | **media-mcp-agents**                                                                  | Author · 비공개  | FastMCP + Gemini 멀티모달(오디오·영상·이미지·PDF) 분석 MCP |
 | **abyssal-moonlight**                                                                 | Author · 비공개  | Next.js 16 + PixiJS/Live2D 비주얼 노벨 공식 사이트 + CMS   |
 | **G-Canvas**                                                                          | Author · 비공개  | Tauri v2 + Rust + WebGPU 16K 캔버스 고성능 드로잉          |
-| **MoonOrBust**                                                                        | Author · 비공개  | Godot + WebRTC 시그널링 멀티플레이어 게임                  |
-| **Prometheus**                                                                        | Author · 비공개  | C++20 + FastAPI Bybit 자동매매 (차트패턴 + 피보나치)       |
 | **Break Through**                                                                     | Author · 로컬    | Unity 6.3 URP 3D 타이밍 카운터 액션                        |
-| [**Cryptocurrency_with_ai**](https://github.com/j-token/Cryptocurrency_with_ai)       | Author           | FastAPI + AI 자동매매 실험                                 |
 
 </div>
-
----
-
-## AI-Powered Development
-
-> AI는 도구입니다. 중요한 건 **어떻게 활용하느냐** 입니다.
-
-**Claude + GPT + opencode + Codex = Maximum Productivity**
-
-필요한 도구가 없으면? — **직접 만듭니다.**
 
 ---
 
@@ -206,13 +191,5 @@ LLM 시대 초창기부터 **로컬 추론 기반 text2sql 서비스**를 개인
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/j-token)
 [![Blog](https://img.shields.io/badge/Blog-FF5544?style=for-the-badge&logo=tistory&logoColor=white)](https://i-love-coding.tistory.com/)
-
-</div>
-
----
-
-<div align="center">
-
-### Thanks for visiting! / 방문해 주셔서 감사합니다!
 
 </div>
